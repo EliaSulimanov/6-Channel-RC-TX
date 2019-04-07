@@ -7,5 +7,9 @@ Made for ATtiny84.
 
 To use this you must include nRF24L01 lib. more info here: [maniacbug/RF24](https://github.com/maniacbug/RF24/blob/master/README.md)
 
+## Related Projects
+* [Cessna 182 Lights](https://github.com/EliaSulimanov/Cessna-182-Lights)
+* [RC plane rx](https://github.com/EliaSulimanov/RC_plane_rx)
+
 ## License
 GNU General Public License v3.0
