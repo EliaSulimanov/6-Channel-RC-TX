@@ -41,10 +41,10 @@ void setup() {
 void loop() {
   
   // Stick percentage
-  msg[0] = analogRead(THROTTLE * 100 / 1024);
-  msg[1] = analogRead(RUDDER * 100 / 1024);
-  msg[2] = analogRead(ELEVATORS * 100 / 1024);
-  msg[3] = analogRead(ALIERONS * 100 / 1024);
+  msg[0] = analogRead(THROTTLE) * 100 / 1024;
+  msg[1] = analogRead(RUDDER) * 100 / 1024;
+  msg[2] = analogRead(ELEVATORS) * 100 / 1024;
+  msg[3] = analogRead(ALIERONS) * 100 / 1024;
 
   // Digital buttons clicks
   if(digitalRead(LIGHTS) == HIGH)
